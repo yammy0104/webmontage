@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+a {
+  background-color: #f9ae2c;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+.box-1 {
+  color: white;
+  background-color:#ef932f;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin:100px;
+  line-height: 200px;
+  z-index: 8;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+}
+.box-2{
+  background-color:#e57d44;
+  color: white;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin: 100px;
+  line-height: 200px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.box-3 {
+  background-color:#dd6337;
+  color: white;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin: 100px;
+  line-height: 200px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.box-4 {
+  background-color:#d83f24;
+  color: white;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin: 100px;
+  line-height: 200px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+.box-5 {
+  background-color:#e87533;
+  color: white;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin: 100px;
+  line-height: 200px;
+}
+.box-7{
+  background-color:white;
+  color: #e57d44;
+  width: screen;
+  height: 200px;
+  font-size: 70px;
+  margin-top:  600px;
+  margin-left: 300px;
+  line-height: 200px;
+  top:0;
+  z-index:-2;
+  position: absolute;
+}
+.box-6{
+  background-color:white;
+  color: #ef932f;
+  width: screen;
+  height: 200px;
+  font-size: 50px;
+  margin-top:  284px;
+  margin-left: 900px;
+  line-height: 200px;
+  top:0;
+  z-index:-1;
+  position: absolute;
+}
+.box-8{
+  background-color:white;
+  color: #dd6337;
+  width: screen;
+  font-style: italic;
+  height: 200px;
+  font-size: 70px;
+  margin-top:  850px;
+  margin-left: 400px;
+  line-height: 200px;
+  top:0;
+  z-index:-3;
+  position: absolute;
+}
+.box-9{
+  background-color:white;
+  color:#d83f24;
+  width: screen;
+  font-weight: bold;
+  height: 200px;
+  font-size: 70px;
+  margin-top:  1150px;
+  margin-left: 400px;
+  line-height: 200px;
+  top:0;
+  z-index:-4;
+  position: absolute;
+}
+.box-10{
+  background-color:white;
+  color:#cc351a;
+  width: screen;
+  font-weight: bold;
+  opacity:0;
+  height: 200px;
+  font-size: 70px;
+  line-height: 200px;
+
+  transition-duration: all;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+.box-1:hover {
+  transform: translateX(-1500px);
+}
+.box-2:hover {
+  transform:translateX(2000px);
+}
+.box-3:hover {
+  transform: scaleY(0);
+}
+.box-4:hover {
+  transform: scaleX(0);
+}
+.box-5:hover{
+            -webkit-animation-name: buzz-out;
+            -webkit-animation-duration: 0.75s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count:infinite;
+          }
+@-webkit-keyframes buzz-out {
+          0% {
+            -webkit-transform: translateX(3px) rotate(2deg);
+          }
+          10% {
+            -webkit-transform: translateX(-3px) rotate(-2deg);
+          }
+          30% {
+            -webkit-transform: translateX(3px) rotate(2deg);
+          }
+          50%{
+            -webkit-transform: translateX(-2px) rotate(-1deg);
+          }
+          70%{
+            -webkit-transform: translateX(2px) rotate(1deg);
+          }
+          85%{
+            -webkit-transform: translateX(-1px) rotate(-2deg);
+
+          }
+          100% {
+            -webkit-transform: translateX(-3px) rotate(2deg);
+          }
+          }
+  .box-5:active~.box-10 {
+    opacity: 100;
+    background-color:#cc351a;
+    color:white;
+    font-size: 100px;
+    height: 900px;
+    line-height: 900px;
+    transform: translateY(-700px);
+
+  }

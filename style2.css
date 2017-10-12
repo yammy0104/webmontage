@@ -1,0 +1,45 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  background-color: #f9ae2c;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+div {
+  margin-top: 100px;
+}
+
+.b1 {
+  color:#ef932f;
+  font-size: 40px;
+  margin-top:100px;
+  margin-right: 500px;
+}
+.b2 {
+  color:#cc351a;
+  font-size: 60px;
+}
+.b3 {
+  color:#e57d44;
+  font-size: 40px;
+  margin-left: 400px;
+}
+.b4 {
+  color: #dd6337;
+  font-size: 40px;
+}
+.b5 {
+  color:#cc351a;
+  font-size: 60px;
+}
+
+.b6 {
+  color: #dd6337;
+  font-size: 40px;}
+.b7 {
+  color:#d83f24;
+  font-size:60px;
+  font-weight: bold;
+}
